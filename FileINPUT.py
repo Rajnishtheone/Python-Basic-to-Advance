@@ -8,3 +8,6 @@ fp = open("test2.txt","r")
 s=fp.read()
 print(s)
 fp.close()
+
+with open("test.txt ", "a") as f:
+    f.write("yes he is best ")
